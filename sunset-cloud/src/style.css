@@ -1,0 +1,43 @@
+html,body
+
+background{
+  background-color: #e96443;
+  background: -webkit-linear-gradient(to right, #904e95, #e96443);
+  background: linear-gradient(to right, #904e95, #e96443);
+}
+
+.sky{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cloud{
+  width: 165px;
+  height: 150px;
+  position: relative;
+}
+
+.cloud__part{
+  width: inherit;
+  height: inherit;
+  background: #ECE9E6;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.cloud__part--lef{
+  left: -35%;
+  box-shadow: 2px 2.5px 1px #545863;
+}
+
+.cloud__part--up{
+ top: -35%; 
+}
+
+.cloud__part__right{
+  left: 35%;
+  box-shadow: 2px 3px 1px #545863;
+}
